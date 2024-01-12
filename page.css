@@ -1,0 +1,41 @@
+.landingpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 100%;
+    background-color: rgba(43, 12, 12, 0.356);
+    background-size:50px;
+}
+
+.book{
+    border: 4px dotted rgb(68, 12, 12) ;
+    max-width: 80%;
+    max-height: 100%;
+    width: 80%;
+    height: auto;
+
+}
+.text{
+    color: aliceblue;
+    background-color: rgba(48, 11, 11, 0.521);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: x-large;
+    inline-size: 60%;
+}
+
+button{
+    background-color: rgba(83, 36, 36, 0.562);
+    color: rgb(253, 253, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
